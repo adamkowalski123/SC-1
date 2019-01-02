@@ -2,7 +2,7 @@ pragma solidity ^0.4.17;
 
 contract Adoption {
     address[16] public adopters;
-
+}
 
     //Adopting a pet
     function adopt(uint petID) public returns (uint) {
@@ -18,4 +18,3 @@ contract Adoption {
         return adopters;
     }
 
-}
